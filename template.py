@@ -89,6 +89,8 @@ def upload_basic():
     "client_id": "look up how to get client id from google",
     "client_secret": "look up how to get client secret from google",
     "refresh_token": "look up how to get refresh token"})
+    
+    # this video might help with getting credentials https://www.youtube.com/watch?v=ig8Y09N-pkI
 
     # create drive api client
     service = build('drive', 'v3', credentials=creds)
